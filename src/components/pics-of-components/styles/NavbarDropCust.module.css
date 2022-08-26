@@ -1,0 +1,43 @@
+    /*  by deafault code  */
+*{
+    font-weight: bold;
+    font-size: 1.2rem;
+    }
+        /* Navbar drop styling */
+.ListItemsTop{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/*  Main nav wrapper  */
+.mainNAvWrapper{
+    background: rgba(0, 0, 0, 0.055);
+    color: white;
+    border-radius: 1rem;
+    text-align: center;
+   
+}
+.ToBarNavigating{
+    margin-top: 10px;
+   padding: 6px;
+   text-decoration: none;
+   color: rgba(0,0,0,0.55);
+
+}
+.ToBarNavigating:hover{
+   background: #00d150a9;;
+   color: #000;
+   border-radius: 0.6rem;
+}
+
+    /*  icons wrapping */
+.NavigativeIcon{
+   margin: 3px;
+}
+
+/*  Mainnav display fixed  */
+.MainNav{
+    /* position: fixed !important; */
+    width: 100%;
+     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+     
+}

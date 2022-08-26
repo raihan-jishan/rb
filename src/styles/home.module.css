@@ -1,0 +1,92 @@
+   /*  y default code  */
+   section{
+    padding: 2rem;
+   }
+   /*  home section  */
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(#00ff841f,rgba(0, 0, 0, 0.568)),url(../assets/homeImage.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  
+}
+/* .home{
+    margin: 0 auto;
+    margin-top: 0rem;
+    width: 100%;
+    border-radius: 0rem;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(17, 17, 17, 0.7)),
+        to(rgba(17, 17, 17, 0.7))
+      ),
+      url(https://s3.amazonaws.com/electronichousesite/wp-content/uploads/2015/12/19182723/52-1-873x500.jpg)
+        no-repeat;
+    background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)),
+      url(https://s3.amazonaws.com/electronichousesite/wp-content/uploads/2015/12/19182723/52-1-873x500.jpg)
+        no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+} */
+
+  
+  .home .content{
+    max-width: 60rem;
+
+  }
+  .home .content h3 {
+    font-size: 5rem ;
+    /* text-transform: uppercase; */
+    color: #fff;
+
+  }
+  .home .content p {
+    font-size: 1.3rem ;
+   font-weight: 600;
+   padding: 1rem 0;
+    color: rgb(192, 192, 192);
+    line-height: 1.8;
+
+  }
+
+
+
+
+
+  /*  responsive quaries  */
+  @media (max-width:768px) {
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .home .content h3{
+        font-size: 4rem;
+    }
+    .home .content p{
+        font-size: 1.5rem;
+    }
+
+  }
+
+  @media (max-width:450px) {
+   
+  }

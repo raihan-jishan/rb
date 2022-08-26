@@ -1,0 +1,36 @@
+/*  writing logo style css */
+.LogoOfBrand{
+    font-weight: bold;
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.075);
+    padding: 7px;
+    border-radius: 0.6rem;
+ 
+    
+
+}
+
+/*  Logo part R --00 */
+.R{
+    color: #1cc45c;
+    font-size: 2.2rem;
+    background-color: rgba(129, 129, 129, 0.027);
+    border-radius: 1rem;
+    padding: 0px 2px;
+    
+    
+}
+.B{
+    color: #616161;
+    font-size: 2rem;
+     
+
+}
+    /*  icon design -- RB */
+.topIcon{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #00924b; 
+    background-color: rgba(129, 129, 129, 0.164);
+    border-radius: 8px;
+}

@@ -1,0 +1,120 @@
+/*  button */
+.Seemore{
+    padding: 5px;
+    color: #000;
+    display: flex;
+    background: #00aa58;
+    width: 170px;
+    border-radius: 0.4rem;
+    margin: auto;
+    border: none;
+}
+
+/* hover */
+.Seemore:hover{
+    background: #00ce6a;
+}
+.Seemore:active{
+    background: #00e677;
+}
+
+/*  Product title  */
+.ProductTitle{
+    font-weight: bold;
+    color: #00aa58;;
+    background: rgb(0, 0, 0);
+    border-radius: 0.4rem;
+    padding: 4px;
+    margin: 16px 50px 4px;
+    text-align: center;
+}
+
+/*  cursor */
+.Cursor{
+    font-size: 2rem;
+}
+
+ /* layout component */
+ .main {
+    width: 100%;
+    padding: 4rem 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  /*  galery  */
+  /* videos component */
+.videos {
+    width: 100%;
+    display: grid;
+    margin: 3rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    gap: 20px;
+    row-gap: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .videos {
+      width: 90%;
+    }
+  }
+  
+  /* video component */
+  .video {
+    max-width: 400px;
+    height: fit-content;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    padding-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.123);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-top: 6px solid rgb(129, 129, 129);
+  }
+  
+  .video:hover {
+    border-top: 6px solid #00aa58;
+    box-shadow: rgba(255, 255, 255, 0.712) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.39) 0px 50px 100px -20px, rgba(0, 0, 0, 0.445) 0px 30px 60px -30px;
+    transform: scale(0.9) !important;
+     
+    transition: 0.6s;
+  }
+  
+  .video p {
+    font-size: 2rem;
+    
+    font-weight: 500;
+    margin: 0.5rem 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+  
+  .video img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .video .qmeta {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 6px;
+  }
+  
+  .video .qmeta p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .video {
+      width: 100%;
+    }
+  }

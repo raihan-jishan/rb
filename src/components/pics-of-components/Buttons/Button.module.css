@@ -1,0 +1,50 @@
+/*  by default */
+/* *{
+    margin: 0;padding: 0;box-sizing: border-box;
+    list-style: none; text-decoration: none; 
+    
+    background-color: #009578;   ! primary coor  ;
+} */
+
+/*  button merkup  */
+.button{
+ display: inline-flex;
+    height: 50px;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 2rem;
+    cursor: pointer;
+    font-weight: 500;
+    /*  on time */
+    background: #02dd73;
+  
+
+
+}
+/*  button hover  */
+.button:hover{
+    background-color: #02c567;
+}
+.button:active{
+    background-color: #01b960;
+}
+/*  over write */
+.buttonText,
+.buttonIcon{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 5.5px;
+    color:#000;
+    height: 100%;
+    font-weight: 500;
+
+}
+/*  icon wraping  */
+.buttonIcon{
+    font-size: 2.1rem;
+    background:rgb(0, 0, 0, 0.08);
+
+}
